@@ -1,5 +1,6 @@
 import './App.css'
 import {Switch, Route} from 'react-router-dom'
+import Register from './components/Register'
 import Home from './components/Home'
 
 // These are the lists used in the application. You can move them to any component needed.
@@ -30,6 +31,7 @@ const topicsList = [
 const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/register" component={Register} />
   </Switch>
 )
 
