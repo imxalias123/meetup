@@ -5,7 +5,7 @@ import {Switch, Route, Redirect} from 'react-router-dom'
 import Register from './components/Register'
 
 import Home from './components/Home'
-import NotFound from './component/NotFound'
+import NotFound from './components/NotFound'
 
 // These are the lists used in the application. You can move them to any component needed.
 const topicsList = [
@@ -36,7 +36,7 @@ const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/register" component={Register} />
-    <Route exact path="not-found" component={NotFound} />
+    <Route exact path="/not-found" component={NotFound} />
     <Redirect to="not-found" />
   </Switch>
 )
