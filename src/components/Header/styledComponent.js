@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
 export const Img = styled.img`
-  padding: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
 `
